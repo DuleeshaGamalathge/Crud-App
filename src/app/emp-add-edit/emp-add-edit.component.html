@@ -3,7 +3,7 @@
 </div>
 <form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
     <div mat-dialog-content class="content">
-        <div class="row">
+        <div class="rowF">
             <mat-form-field appearance="outline">
                 <mat-label>First Name</mat-label>
                 <input matInput type="text" placeholder="Ex: Duleesha" formControlName="firstName">
@@ -13,7 +13,7 @@
                 <input matInput type="text" placeholder="Ex: Gamalthge" formControlName="lastName">
             </mat-form-field>
         </div>
-        <div class="row">
+        <div class="rowF">
             <mat-form-field appearance="outline">
                 <mat-label>Email</mat-label>
                 <input matInput type="email" placeholder="Ex: test@gmail.com" formControlName="email">
@@ -26,7 +26,7 @@
                 <mat-datepicker #picker></mat-datepicker>
             </mat-form-field> 
         </div>
-        <div class="row">
+        <div class="rowF">
             <mat-radio-group aria-label="Select an option" formControlName="gender">
                 <mat-label>Gender</mat-label>
                 <mat-radio-button value="male">Male</mat-radio-button>
@@ -34,9 +34,9 @@
                 <mat-radio-button value="other">Other</mat-radio-button>
             </mat-radio-group>          
         </div>
-        <div class="row">
+        <div class="rowF">
             <!-- <h4>Education</h4> -->
-            <mat-form-field>
+            <mat-form-field appearance="outline">
                 <mat-label>Education</mat-label>
                 <mat-select formControlName="education">
                     <mat-option *ngFor="let val of education" [value]="val">
@@ -49,13 +49,13 @@
                 <input matInput type="text" placeholder="Ex: Google" formControlName="company">
             </mat-form-field>
         </div>
-        <div class="row">
+        <div class="rowF">
             <mat-form-field appearance="outline">
                 <mat-label>Experience</mat-label>
                 <input matInput type="text" placeholder="Ex: 4" type="number" formControlName="experience">
             </mat-form-field>
             <mat-form-field appearance="outline">
-                <mat-label>Packege</mat-label>
+                <mat-label>Package</mat-label>
                 <input matInput type="text" placeholder="Ex: 12" type="number" formControlName="package">
                 <mat-hint>in rupees</mat-hint>
             </mat-form-field>
