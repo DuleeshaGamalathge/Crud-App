@@ -23,7 +23,7 @@
       "email": "duleesha@email.com",
       "dob": "2023-08-27T18:30:00.000Z",
       "gender": "female",
-      "education": "Post Graduate",
+      "education": "Graduate",
       "company": "Microsoft",
       "experience": "5",
       "package": "31",
@@ -35,23 +35,35 @@
       "email": "duleeshagamalathge@gmail.com",
       "dob": "2023-08-30T18:30:00.000Z",
       "gender": "female",
-      "education": "Graduate",
+      "education": "Post Graduate",
       "company": "Google",
       "experience": "3",
       "package": "28",
       "id": 3
     },
     {
-      "firstName": "find",
-      "lastName": "sf",
-      "email": "d@fgf.g",
-      "dob": "2023-09-06T18:30:00.000Z",
+      "firstName": "18APC3591",
+      "lastName": "Duleesha",
+      "email": "duleesha@email.com",
+      "dob": "2023-08-27T18:30:00.000Z",
       "gender": "female",
-      "education": "Matric",
-      "company": "rgdg",
-      "experience": "3",
-      "package": "4",
+      "education": "Graduate",
+      "company": "Microsoft",
+      "experience": "5",
+      "package": "31",
       "id": 4
+    },
+    {
+      "firstName": "18APC3591",
+      "lastName": "Duleesha",
+      "email": "duleesha@email.com",
+      "dob": "2023-08-27T18:30:00.000Z",
+      "gender": "female",
+      "education": "Graduate",
+      "company": "Microsoft",
+      "experience": "5",
+      "package": "31",
+      "id": 5
     }
   ]
 }
