@@ -64,6 +64,18 @@
       "experience": "5",
       "package": "31",
       "id": 5
+    },
+    {
+      "firstName": "tadu",
+      "lastName": "dix",
+      "email": "tldix@hotmail.com",
+      "dob": "2000-01-27T18:00:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "cgen",
+      "experience": "6",
+      "package": "100",
+      "id": 6
     }
   ]
 }
